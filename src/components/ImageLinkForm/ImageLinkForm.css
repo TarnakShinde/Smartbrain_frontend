@@ -1,0 +1,43 @@
+.form {
+  width: 700px;
+  background: linear-gradient(
+      145deg,
+      #feaabb 10%,
+      #fc466b 10.5% 19%,
+      #0000 19.5% 80.5%,
+      #fc466b 81% 89.5%,
+      #21bf73 90%
+    ),
+    linear-gradient(
+        145deg,
+        #feaabb 10%,
+        #fc466b 10.5% 19%,
+        #0000 19.5% 80.5%,
+        #fc466b 81% 89.5%,
+        #21bf73 90%
+      )
+      calc(34px) 68px,
+    linear-gradient(
+      35deg,
+      #feaabb 10%,
+      #fc466b 10.5% 19%,
+      #0000 19.5% 80.5%,
+      #fc466b 81% 89.5%,
+      #21bf73 90%
+    ),
+    linear-gradient(
+        35deg,
+        #feaabb 10%,
+        #fc466b 10.5% 19%,
+        #0000 19.5% 80.5%,
+        #fc466b 81% 89.5%,
+        #21bf73 90%
+      )
+      calc(34px) 68px,
+    conic-gradient(from -90deg at 37.5% 50%, #0000 75%, #feaabb 0)
+      calc(34px / 4) 0,
+    conic-gradient(from -90deg at 37.5% 50%, #0000 75%, #21bf73 0) calc(34px) 0,
+    linear-gradient(90deg, #21bf73 38%, #feaabb 0 50%, #21bf73 0 62%, #feaabb 0);
+  background-size: 68px calc(2 * 68px / 3);
+  
+}
