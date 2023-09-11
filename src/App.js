@@ -108,7 +108,7 @@ class App extends Component {
       // .then((response) => response.json())
       .then((response) => {
         if (response) {
-          fetch("https://myfrontend-chxf.onrender.com/image", {
+          fetch("https://mybackend-8g7s.onrender.com/image", {
             method: "put",
             headers: { "Content-Type": "application/json" },
             body: JSON.stringify({
