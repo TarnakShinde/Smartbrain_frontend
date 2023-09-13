@@ -105,7 +105,7 @@ class App extends Component {
       "https://api.clarifai.com/v2/models/face-detection/outputs",
       returnClarifaiRequestOptions(this.state.input)
     )
-      // .then((response) => response.json())
+      .then((response) => response.json())
       .then((response) => {
         if (response) {
           fetch("https://mybackend-8g7s.onrender.com/image", {
